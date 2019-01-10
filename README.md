@@ -1,29 +1,11 @@
 # quiz2
 
-## Project setup
-```
-npm install
-```
+Le même quiz que le précédent on reprend la base de l'appli Vue.js + Bootstrap-vue
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Cette fois mise en place de l'application par vue ui : sudo npm vue ui
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Suppression des questions du quiz de App.vue { data }, pour une utilisation de Vuex
 
-### Run your tests
-```
-npm run test
-```
+Installation de json-server pour stocker les questions : sudo npm install -g json-server
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Installation de Axios pour effectuer des appels asynchrones : npm i axios
